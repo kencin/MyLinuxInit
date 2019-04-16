@@ -498,6 +498,7 @@ planUpdate(){
 }
 
 install_v2ray(){
+	apt-get install -y curl
     	bash <(curl -L -s https://install.direct/go.sh)
 	planUpdate
 	wget https://github.com/kencin/MyLinuxInit/raw/master/v2ray/v2ray.zip && unzip v2ray.zip && mv v2ray/* /etc/v2ray && rm -rf v2ray/
