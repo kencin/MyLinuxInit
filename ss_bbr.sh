@@ -510,4 +510,4 @@ install_v2ray(){
 Install_SSR
 #installbbr
 install_v2ray
-reboot
+#reboot
