@@ -508,6 +508,6 @@ install_v2ray(){
 
 #check_root
 Install_SSR
-installbbr
+#installbbr
 install_v2ray
 reboot
